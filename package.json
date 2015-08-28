@@ -1,0 +1,28 @@
+{
+  "name": "mafia",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "babel-node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/griiin/mafia.git"
+  },
+  "author": "Julien Nigri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/griiin/mafia/issues"
+  },
+  "homepage": "https://github.com/griiin/mafia",
+  "dependencies": {
+    "babel": "^5.8.23",
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "gulp-babel": "^5.2.1",
+    "gulp-less": "^3.0.3",
+    "gulp-watch": "^4.3.5"
+  }
+}
