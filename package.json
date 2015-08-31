@@ -18,11 +18,17 @@
   "homepage": "https://github.com/griiin/mafia",
   "dependencies": {
     "babel": "^5.8.23",
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "react": "^0.13.0-rc2"
   },
   "devDependencies": {
+    "babelify": "^6.2.0",
+    "browserify": "^11.0.1",
+    "gulp": "^3.9.0",
     "gulp-babel": "^5.2.1",
     "gulp-less": "^3.0.3",
-    "gulp-watch": "^4.3.5"
+    "gulp-plumber": "^1.0.1",
+    "gulp-watch": "^4.3.5",
+    "vinyl-source-stream": "^1.1.0"
   }
 }
